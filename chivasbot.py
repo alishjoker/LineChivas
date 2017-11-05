@@ -24,10 +24,10 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
-[Id︎]
-[Mid]
-[Me︎]
+helpMessage =""" Alish Joker Bot
+[ایدی]
+[نام کاربری]
+[من]
 [TL︎:「Text」]
 [Mc 「mid」]
 [K on/off]
@@ -47,10 +47,10 @@ helpMessage =""" Chivas Bot
 
 [*] Command in the groups [*]
 
-[Curl]
-[Ourl]
+[بستن لینک]
+[باز کردن لینک]
 [url]
-[url:「Group ID」]
+[لینک:「Group ID」]
 [Invite：「mid」]
 [Kick：「mid」]
 [Ginfo]
@@ -60,10 +60,10 @@ helpMessage =""" Chivas Bot
 
 [*] Command kicker only [*]
 
-[Bye]
-[Kill ban]
-[Kill 「@」]
-[Ban 「@」] By Tag
+[بای]
+[پاک کردن]
+[پاک کردن 「@」]
+[بن 「@」] By Tag
 [Unban 「@」] By Tag
 [Ban︎] Share Contact
 [Unban︎] Share Contact
@@ -91,9 +91,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Thanks for add me",
+    'message':"سلام به ربات ما خوش اومدی ",
     "lang":"JP",
-    "comment":"Thanks for add me",
+    "comment":"سلام به ربات ما خوش اومدی",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
